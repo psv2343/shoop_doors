@@ -1,8 +1,11 @@
 import { JSDOM } from 'jsdom'
 
-const jsdom = (data) => {
+const jsdom = ({data, link}) => {
   const dom = new JSDOM(data)
-  return dom.window.document
+  return {
+    document: dom.window.document,
+    link: link
+  }
 }
 
 export default jsdom

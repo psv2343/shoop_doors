@@ -4,7 +4,7 @@ import compose from "../helpers/compose.js"
 import {
   arrayFromSelector,
   attributeElement,
-  attributeFromSelector,
+  elementFromSelector,
   getElementByAttribute,
   getElementWithAttribute,
   linkFromSelector,
@@ -15,7 +15,17 @@ import { extractOIDFromUrl, extractSKUFromUrl, generateIdFromUrl, getUrl } from 
 const SET_PARALLEL = 5
 const URL = 'https://shop.za-door.ru/'
 
- const getColors = (document) => {
+const defaultParametrs = (link) => {
+  return {
+    id: generateIdFromUrl(link),
+    sku: extractSKUFromUrl(link),
+    oid: extractOIDFromUrl(link),
+    url: link,
+    hasData: false,
+  }
+}
+
+const getColors = (document) => {
   const item = getElementWithAttribute(document, '.item_wrapper .item.active', 'data-obgi')
   if (!item) return null
   return {
@@ -63,12 +73,11 @@ const getTizers = (document) => {
 }
 
 const parsePage = async ({document, link}) => {
-  console.log(link)
+  if (elementFromSelector(document, '.page_not_found')) {
+    return defaultParametrs(link)
+  }
   return {
-    id: generateIdFromUrl(link),
-    sku: extractSKUFromUrl(link),
-    oid: extractOIDFromUrl(link),
-    url: link,
+    ...defaultParametrs(link),
     title: textFromSelector(document, '#pagetitle'),
     price: textFromSelector(document, '.price_value'),
     image: URL + linkFromSelector(document, '.product-detail-gallery__link'),
@@ -77,7 +86,8 @@ const parsePage = async ({document, link}) => {
     parametrs: getParametrs(document),
     properties: getProperties(document),
     constructor: getConstructor(extractOIDFromUrl(link), document),
-    tizers: getTizers(document)
+    tizers: getTizers(document),
+    hasData: true
   }
 }
 

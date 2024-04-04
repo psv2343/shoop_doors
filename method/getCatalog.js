@@ -50,7 +50,7 @@ const getCollection = (document) => {
   return collections
 }
 
-const parsePage = (document) => {
+const parsePage = ({document}) => {
   const catalog = arrayFromSelector(document, '.menu.dropdown>li')
   return catalog.map(documentCategory => ({
       parentCategory: textFromSelector(documentCategory, '.name'),
