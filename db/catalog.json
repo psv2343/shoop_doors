@@ -27,6 +27,64 @@
           "name": "Скрытые двери",
           "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/skrytye/",
           "subCategory": []
+        },
+        {
+          "name": "Все коллекции",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/",
+          "subCategory": [
+            {
+              "name": "Коллекция «Classic Baguette»",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/kolletsiya_classic_baguette_new/"
+            },
+            {
+              "name": "Коллекция «Art-Lite»",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/art-lite/"
+            },
+            {
+              "name": "Коллекция «ART Classic» NEW",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-artclassic/"
+            },
+            {
+              "name": "Коллекция «Квалитет » NEW",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya_kvalitet_new/"
+            },
+            {
+              "name": "Коллекция «FiloMuro» Под покраску",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/serya-Filo-Muro/"
+            },
+            {
+              "name": "Коллекция «SK»",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/kollektsiya_sk/"
+            },
+            {
+              "name": "Коллекция «S»",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-s/"
+            },
+            {
+              "name": "Коллекция «S Classic»",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-s-classic/"
+            },
+            {
+              "name": "Коллекция «SP»",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/serya-sp/"
+            },
+            {
+              "name": "Коллекция «Horizont»",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-gorizont/"
+            },
+            {
+              "name": "Коллекция «Horizont ALU»",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-alu/"
+            },
+            {
+              "name": "Коллекция «3DX»",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-3dx/"
+            },
+            {
+              "name": "Коллекция «Forma»",
+              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-forma/"
+            }
+          ]
         }
       ],
       "collections": [
@@ -106,7 +164,43 @@
     },
     {
       "parentCategory": "Погонаж",
-      "subCategory": [],
+      "subCategory": [
+        {
+          "name": "Коллекция «Classic Baguette / S Classic / S»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-nuovo-classic-s-classic-mat/",
+          "subCategory": []
+        },
+        {
+          "name": "Коллекция «ArtLite / 3DX / SK»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-classic-emal-3dx-emal/",
+          "subCategory": []
+        },
+        {
+          "name": "Коллекция «SP»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-sp/",
+          "subCategory": []
+        },
+        {
+          "name": "Коллекция «Квалитет»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-OU/",
+          "subCategory": []
+        },
+        {
+          "name": "Коллекция «FiloMuro»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/Filo-Muro/",
+          "subCategory": []
+        },
+        {
+          "name": "Коллекция «Горизонт - ALU»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-gorizont-alu/",
+          "subCategory": []
+        },
+        {
+          "name": "Коллекция «Forma»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-forma-eco-l/",
+          "subCategory": []
+        }
+      ],
       "collections": [
         {
           "name": "Коллекция «Classic Baguette / S Classic / S»",
