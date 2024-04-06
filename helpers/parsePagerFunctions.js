@@ -4,12 +4,12 @@ import {
   getElementByAttribute,
   getElementWithAttribute,
   textFromSelector
-} from "./documentFunction"
+} from "./documentFunction.js"
 import {
   extractOIDFromUrl,
   extractSKUFromUrl,
   generateIdFromUrl
-} from "./helpers"
+} from "./helpers.js"
 
 export const defaultParametrs = (link) => {
   return {

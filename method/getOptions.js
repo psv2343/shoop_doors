@@ -14,12 +14,15 @@ import {
   getProperties,
   getTizers
 } from "../helpers/parsePagerFunctions.js"
+import { getData, setData } from "../controller/db.controller.js"
+import { generateIdFromUrl, getFilterLinksBySKU } from "../helpers/helpers.js"
 
 const SET_PARALLEL = 5
+const FILTER_LINK = true
 const URL = 'https://shop.za-door.ru/'
 
 const parsePage = async ({document, link}) => {
-  if (elementFromSelector(document, '.page_not_found')) {
+  if (!document || elementFromSelector(document, '.page_not_found')) {
     return defaultParametrs(link)
   }
   return {
@@ -33,12 +36,22 @@ const parsePage = async ({document, link}) => {
     properties: getProperties(document),
     constructor: getConstructor(URL, link, document),
     tizers: getTizers(document),
+    description: textFromSelector(document, '.detail-text-wrap1')?.split('•'),
     hasData: true
   }
 }
 
+const filterLinks = async (links) => {
+  if (FILTER_LINK) {
+    const db = await getData()
+    const filterLinks = await getFilterLinksBySKU(db)
+    return links.filter(link => !(filterLinks[link] || !db[generateIdFromUrl(link)]))
+  }
+  return links
+}
 
-const getOptions = async (links = ['https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/art-lite/30206/?oid=49672', 'https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-s-classic/28306/?oid=49583', 'https://shop.za-door.ru/catalog/napolnye_plintusy/51322/?oid=51325']) => {
+const getOptions = async (links) => {
+  links = (await filterLinks(links))
   for (let iter = 0; iter < links.length; iter += SET_PARALLEL) {
     const linksSet = links.slice(iter, iter + SET_PARALLEL)
     const options = await Promise.all(
@@ -50,9 +63,8 @@ const getOptions = async (links = ['https://shop.za-door.ru/catalog/mezhkomnatny
         )(link)
       })
     )
-    console.log(options)
+    await setData(options)
   }
-
 }
 
 export default getOptions

@@ -38,3 +38,12 @@ export function extractOIDFromUrl(url) {
       return 0;
   }
 }
+
+export const getFilterLinksBySKU = async (db) => {
+  return Object.fromEntries(Object.values(db).reduce((acc, value) => {
+    if (value.hasData === false) {
+      acc.push([value.url, true])
+    }
+    return acc
+  }, []))
+}
