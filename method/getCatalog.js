@@ -3,11 +3,15 @@ import request from "../helpers/request.js"
 import compose from "../helpers/compose.js"
 import {
   arrayFromSelector,
+  attributeElement,
   linkFromSelector,
+  textFromArray,
   textFromSelector
 } from "../helpers/documentFunction.js"
+import { setCatalog } from "../controller/db.controller.js"
 
-const URL = 'https://shop.za-door.ru/'
+const URL = 'https://shop.za-door.ru'
+const WRITE_CATALOG = false
 
 const getSubSubCategory = (document) => {
   const subCategory = arrayFromSelector(document, '.menu_item') || []
@@ -21,7 +25,7 @@ const getSubSubCategory = (document) => {
 const getSubCategory = (document) => {
   const subCategory = arrayFromSelector(document, '.left-menu-wrapper>li')
   return subCategory
-    .filter(documentSubCategory => !textFromSelector(documentSubCategory, '.section').includes('оллекци'))
+    // .filter(documentSubCategory => !textFromSelector(documentSubCategory, '.section').includes('оллекци'))
     .map(documentSubCategory => ({
       name: textFromSelector(documentSubCategory, '.section'),
       link: URL + linkFromSelector(documentSubCategory, 'a'),
@@ -50,14 +54,32 @@ const getCollection = (document) => {
   return collections
 }
 
-const parsePage = ({document}) => {
+const getInformation = (document) => {
+  const info = {
+    sizePosts: 'Замер',
+    deliveryPosts: 'Доставка и подъем',
+    installationPosts: 'Установка',
+    moscowPosts: 'Москва и область',
+    russiaPosts: 'Регионы России',
+  }
+  return arrayFromSelector(document, '.tab-pane').map(documentInfo => ({
+    title: info[attributeElement(documentInfo, 'id')],
+    content: textFromArray(arrayFromSelector(documentInfo, 'p'))
+  }))
+}
+
+const parsePage = async ({document}) => {
   const catalog = arrayFromSelector(document, '.menu.dropdown>li')
-  return catalog.map(documentCategory => ({
+  const catalogInfo = {
+    catalog: catalog.map(documentCategory => ({
       parentCategory: textFromSelector(documentCategory, '.name'),
       subCategory: getSubCategory(documentCategory),
-      collections: getCollection(documentCategory)
-    })
-  )
+      collections: getCollection(documentCategory),
+    })),
+    info: getInformation(document)
+  }
+  WRITE_CATALOG && await setCatalog(catalogInfo)
+  return catalogInfo
 }
 
 const getCatalog = async () => {
@@ -65,7 +87,7 @@ const getCatalog = async () => {
     parsePage,
     jsdom,
     request
-  )(URL)
+  )(URL +'/help/delivery-payment/')
 }
 
 export default getCatalog

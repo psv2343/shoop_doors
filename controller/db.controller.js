@@ -25,3 +25,13 @@ export const getData = async () => {
     console.log(`Error in getData: ${err.message}`)
   }
 }
+
+export const setCatalog = async (data = {}) => {
+  try {
+    const db = await getDatabase('./db/catalog.json')
+    db.data = data
+    await db.write()
+  } catch (err) {
+    console.log(`Error in setCatalog: ${err.message}`)
+  }
+}

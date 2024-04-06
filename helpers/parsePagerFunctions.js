@@ -8,7 +8,8 @@ import {
 import {
   extractOIDFromUrl,
   extractSKUFromUrl,
-  generateIdFromUrl
+  generateIdFromUrl,
+  getUrl
 } from "./helpers.js"
 
 export const defaultParametrs = (link) => {
@@ -21,12 +22,22 @@ export const defaultParametrs = (link) => {
   }
 }
 
+export const getBreadcrumbs = (document) => {
+  return arrayFromSelector(document, '.breadcrumbs__item .breadcrumbs__link')
+    .map((breadcrumb) => {
+      return {
+        name: textFromSelector(breadcrumb, '.breadcrumbs__item-name'),
+        link: attributeElement(breadcrumb, 'href')
+      }
+    })
+}
+
 export const getColors = (url, document) => {
   const item = getElementWithAttribute(document, '.item_wrapper .item.active', 'data-obgi')
   if (!item) return null
   return {
     name: item.getAttribute('title'),
-    image: url + item.getAttribute('data-obgi')
+    image: url + getUrl(item.getAttribute('data-obgi'))
   }
 }
 
@@ -51,12 +62,13 @@ export const getProperties = (document) => {
 
 export const getConstructor = (url, link, document) => {
   const oid = extractOIDFromUrl(link)
-  const constructorDocument = getElementByAttribute(document, 'data-oid', oid)
+  const constructorDocument = getElementByAttribute(document, 'data-offersetid', oid)
   if (!constructorDocument) return []
   return arrayFromSelector(constructorDocument, 'tr.bordered')
     .map((constructor) => {
       return {
         id: generateIdFromUrl(url + attributeElement(constructor, 'data-url')),
+        url: url + attributeElement(constructor, 'data-url'),
         quantity: attributeElement(constructor, 'data-quantity')
       }
     })

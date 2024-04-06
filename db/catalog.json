@@ -1,0 +1,390 @@
+{
+  "catalog": [
+    {
+      "parentCategory": "Межкомнатные двери",
+      "subCategory": [
+        {
+          "name": "Классические",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/klassicheskie/",
+          "subCategory": []
+        },
+        {
+          "name": "Неоклассические",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/neoklassicheskie/",
+          "subCategory": []
+        },
+        {
+          "name": "Дизайнерские",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/dizaynerskie/",
+          "subCategory": []
+        },
+        {
+          "name": "Современные",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/sovremennye/",
+          "subCategory": []
+        },
+        {
+          "name": "Скрытые двери",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/skrytye/",
+          "subCategory": []
+        }
+      ],
+      "collections": [
+        {
+          "name": "Все коллекции",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/"
+        },
+        {
+          "name": "Коллекция «Classic Baguette»",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/kolletsiya_classic_baguette_new/"
+        },
+        {
+          "name": "Коллекция «Art-Lite»",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/art-lite/"
+        },
+        {
+          "name": "Коллекция «ART Classic» NEW",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-artclassic/"
+        },
+        {
+          "name": "Коллекция «Квалитет » NEW",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya_kvalitet_new/"
+        },
+        {
+          "name": "Коллекция «FiloMuro» Под покраску",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/serya-Filo-Muro/"
+        },
+        {
+          "name": "Коллекция «SK»",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/kollektsiya_sk/"
+        },
+        {
+          "name": "Коллекция «S»",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-s/"
+        },
+        {
+          "name": "Коллекция «S Classic»",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-s-classic/"
+        },
+        {
+          "name": "Коллекция «SP»",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/serya-sp/"
+        },
+        {
+          "name": "Коллекция «Horizont»",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-gorizont/"
+        },
+        {
+          "name": "Коллекция «Horizont ALU»",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-alu/"
+        },
+        {
+          "name": "Коллекция «3DX»",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-3dx/"
+        },
+        {
+          "name": "Коллекция «Forma»",
+          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-forma/"
+        }
+      ]
+    },
+    {
+      "parentCategory": "Декоративные рейки и стеновые панели",
+      "subCategory": [
+        {
+          "name": "Декоративные рейки",
+          "link": "https://shop.za-door.ru/catalog/dekorativnye_reyki_i_stenovye_paneli/dekorativnye_reyki_/",
+          "subCategory": []
+        },
+        {
+          "name": "Стеновые панели",
+          "link": "https://shop.za-door.ru/catalog/dekorativnye_reyki_i_stenovye_paneli/stenovye_paneli/",
+          "subCategory": []
+        }
+      ],
+      "collections": []
+    },
+    {
+      "parentCategory": "Погонаж",
+      "subCategory": [],
+      "collections": [
+        {
+          "name": "Коллекция «Classic Baguette / S Classic / S»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-nuovo-classic-s-classic-mat/"
+        },
+        {
+          "name": "Коллекция «ArtLite / 3DX / SK»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-classic-emal-3dx-emal/"
+        },
+        {
+          "name": "Коллекция «SP»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-sp/"
+        },
+        {
+          "name": "Коллекция «Квалитет»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-OU/"
+        },
+        {
+          "name": "Коллекция «FiloMuro»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/Filo-Muro/"
+        },
+        {
+          "name": "Коллекция «Горизонт - ALU»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-gorizont-alu/"
+        },
+        {
+          "name": "Коллекция «Forma»",
+          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-forma-eco-l/"
+        }
+      ]
+    },
+    {
+      "parentCategory": "Напольный плинтус",
+      "subCategory": [],
+      "collections": []
+    },
+    {
+      "parentCategory": "Фурнитура",
+      "subCategory": [
+        {
+          "name": "Rucetti",
+          "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/",
+          "subCategory": [
+            {
+              "name": "Ручки Rucetti",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/ruchki_rucetti/"
+            },
+            {
+              "name": "Завертки Rucetti",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/zavertki_dlya_zamka_rucetti/"
+            },
+            {
+              "name": "Накладки под цилиндр Rucetti",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/nakladki_pod_tsilindr_rucetti/"
+            },
+            {
+              "name": "Цилиндры Rucetti",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/tsilindry_rucetti/"
+            },
+            {
+              "name": "Петли Rucetti",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/petli_rucetti/"
+            }
+          ]
+        },
+        {
+          "name": "Morelli",
+          "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/",
+          "subCategory": [
+            {
+              "name": "Ручки Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/ruchki_morelli/"
+            },
+            {
+              "name": "Завертки Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/zavertki_dlya_zamka_morelli/"
+            },
+            {
+              "name": "Цилиндры Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/nakladki_pod_tsilindr/"
+            },
+            {
+              "name": "Накладки под цилиндр Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/nakladki_pod_tsilindr_morelli/"
+            },
+            {
+              "name": "Петли Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/petli_morelli/"
+            },
+            {
+              "name": "Замки сантехнические Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/zamki_santekhnicheskie_morelli/"
+            },
+            {
+              "name": "Замки цилиндровые Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/zamki_tsilindrovye_morelli/"
+            },
+            {
+              "name": "Защелки межкомнатные Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/zashchelki_mezhkomnatnye_morelli/"
+            },
+            {
+              "name": "Шпингалеты торцевые Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/shpingalety_tortsevye_morelli/"
+            },
+            {
+              "name": "Дверные ограничители Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/dvernye_ogranichiteli_morelli/"
+            },
+            {
+              "name": "Дверные пороги Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/dvernye_porogi_morelli/"
+            },
+            {
+              "name": "Доводчики Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/dovodchiki_morelli_/"
+            },
+            {
+              "name": "Ручки и замки для раздвижных дверей Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/ruchki_dlya_razdvizhnykh_dverey_morelli_/"
+            },
+            {
+              "name": "Системы для раздвижных дверей Morelli",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/napravlyayushchie_morelli_/"
+            }
+          ]
+        },
+        {
+          "name": "Morelli Luxury (Италия)",
+          "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli-luxury/",
+          "subCategory": [
+            {
+              "name": "Ручки Morelli Luxury",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli-luxury/ruchki_morelli_luxury/"
+            },
+            {
+              "name": "Завертки Morelli Luxury",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli-luxury/zavertki_morelli_luxury/"
+            },
+            {
+              "name": "Накладки под цилиндр Morelli Luxury",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli-luxury/nakladki_pod_tsilindr_morelli_luxury/"
+            }
+          ]
+        },
+        {
+          "name": "Archie (Испания)",
+          "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-archie/",
+          "subCategory": [
+            {
+              "name": "Коллекция Archie",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-archie/archie-collection/"
+            },
+            {
+              "name": "Коллекция Sillur",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-archie/sillur-collection/"
+            },
+            {
+              "name": "Коллекция Genesis",
+              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-archie/genesis-collection/"
+            }
+          ]
+        },
+        {
+          "name": "Раздвижные системы",
+          "link": "https://shop.za-door.ru/catalog/furnitura/razdvizhnye-sistemy/",
+          "subCategory": [
+            {
+              "name": "Ручки для раздвижных дверей",
+              "link": "https://shop.za-door.ru/catalog/furnitura/razdvizhnye-sistemy/ruchki_i_zamki_dlya_razdvizhnykh_dverey/"
+            },
+            {
+              "name": "Замки для раздвижных дверей",
+              "link": "https://shop.za-door.ru/catalog/furnitura/razdvizhnye-sistemy/zamki_dlya_razdvizhnykh_dverey/"
+            },
+            {
+              "name": "Системы для раздвижных дверей",
+              "link": "https://shop.za-door.ru/catalog/furnitura/razdvizhnye-sistemy/sistemy_dlya_razdvizhnykh_dverey/"
+            }
+          ]
+        },
+        {
+          "name": "Krona Koblenz",
+          "link": "https://shop.za-door.ru/catalog/furnitura/krona_koblenz/",
+          "subCategory": []
+        },
+        {
+          "name": "Все ручки",
+          "link": "https://shop.za-door.ru/catalog/furnitura/dvernye-ruchki/",
+          "subCategory": []
+        },
+        {
+          "name": "AGB",
+          "link": "https://shop.za-door.ru/catalog/furnitura/agb/",
+          "subCategory": []
+        }
+      ],
+      "collections": []
+    },
+    {
+      "parentCategory": "Металлические двери",
+      "subCategory": [
+        {
+          "name": "Бюджет",
+          "link": "https://shop.za-door.ru/catalog/metallicheskie-dveri/snedo/",
+          "subCategory": []
+        },
+        {
+          "name": "Стандарт",
+          "link": "https://shop.za-door.ru/catalog/metallicheskie-dveri/sudar/",
+          "subCategory": []
+        },
+        {
+          "name": "Термодвери",
+          "link": "https://shop.za-door.ru/catalog/metallicheskie-dveri/termodveri/",
+          "subCategory": []
+        },
+        {
+          "name": "Тамбурные",
+          "link": "https://shop.za-door.ru/catalog/metallicheskie-dveri/tamburnie/",
+          "subCategory": []
+        },
+        {
+          "name": "Противопожарные",
+          "link": "https://shop.za-door.ru/catalog/metallicheskie-dveri/fire-prevention/",
+          "subCategory": []
+        }
+      ],
+      "collections": []
+    }
+  ],
+  "info": [
+    {
+      "title": "Замер",
+      "content": [
+        "Стоимость замера — 1 500 ₽ в Москве, в Московской области — 1500 ₽ + 45 ₽ за каждый километр удаленности от МКАД.",
+        "Замерщик выезжает в заранее оговоренный интервал времени с 8 до 20 часов в рабочие и выходные дни.",
+        "После замера мы свяжемся с вами, озвучим финальную стоимость и сроки заказа.",
+        "Если они вас устроят — мы сформируем договор и пришлем реквизиты для 50% предоплаты.",
+        "Оплатить можно по ссылке, QR-коду, банковским переводом или наличными в магазине. Доступны рассрочка без переплаты и кредит."
+      ]
+    },
+    {
+      "title": "Доставка и подъем",
+      "content": [
+        "Доставляем собственной службой. Двери в наличии доставим за 1-2 дня. Иначе согласуем срок — обычно 2-3 недели.",
+        "Стоимость доставки собственной службой: по Москве — 2 000 ₽ по области — 2 000 ₽ + 45 ₽ за км удаленности от МКАД",
+        "Стоимость подъема одного полотна: Подъем с лифтом за полотно — 300 ₽ Подъем с лифтом за полотно выше 2000мм — 350 ₽ Подъем без лифта 1 этаж за полотно — 300 ₽ Подъем без лифта 1 этаж за полотно выше 2500мм — 450 ₽",
+        "По России доставляем транспортными компаниями",
+        "Мы бесплатно доставим двери и фурнитуру до представительства транспортной компании. Стоимость доставки до вашего города по тарифам транспортных компаний."
+      ]
+    },
+    {
+      "title": "Москва и область",
+      "content": [
+        "Доставляем собственной службой. Двери в наличии доставим за 1-2 дня. Иначе согласуем срок — обычно 2-3 недели.",
+        "Стоимость доставки собственной службой: по Москве — 2 000 ₽ по области — 2 000 ₽ + 45 ₽ за км удаленности от МКАД",
+        "Стоимость подъема одного полотна: Подъем с лифтом за полотно — 300 ₽ Подъем с лифтом за полотно выше 2000мм — 350 ₽ Подъем без лифта 1 этаж за полотно — 300 ₽ Подъем без лифта 1 этаж за полотно выше 2500мм — 450 ₽"
+      ]
+    },
+    {
+      "title": "Регионы России",
+      "content": [
+        "По России доставляем транспортными компаниями",
+        "Мы бесплатно доставим двери и фурнитуру до представительства транспортной компании. Стоимость доставки до вашего города по тарифам транспортных компаний."
+      ]
+    },
+    {
+      "title": "Установка",
+      "content": [
+        "Стоимость установки зависит от дверного проема, покрытия двери и типа фурнитуры.",
+        "Монтаж стандартной межкомнатной двери стоит от 3 000 до 7 000 ₽.",
+        "Точную стоимость сообщим после замера.",
+        "Любые вопросы по установке дверей по телефону +7 (499) 113 43 03 с 9 до 18 по будням или электронной почте dostavka@za-door.com."
+      ]
+    },
+    {
+      "content": []
+    }
+  ]
+}

@@ -28,8 +28,8 @@ const spinner = {
 
 /*
   // Usage:
-  const spin = new ShowLoading(length)
-  spin.loading(count, `Loading photos ${count++}/${len} ...`)
+  const spin = new ShowLoading()
+  spin.loading(count, length, `Loading photos ${count++}/${len} ...`)
 */
 
 function ShowLoading () {
