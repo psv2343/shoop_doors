@@ -9,49 +9,37 @@ import {
   textFromSelector
 } from "../helpers/documentFunction.js"
 import { setCatalog } from "../controller/db.controller.js"
+import { generateIdFromUrl } from "../helpers/helpers.js"
 
 const URL = 'https://shop.za-door.ru'
-const WRITE_CATALOG = false
+const WRITE_CATALOG = true
 
-const getSubSubCategory = (document) => {
+const getSubCategory = (document, parentCategoryId, categoryId) => {
   const subCategory = arrayFromSelector(document, '.menu_item') || []
-  return subCategory.map(documentSubSubCategory => ({
+  return subCategory.map(documentSubSubCategory => {
+    const link = linkFromSelector(documentSubSubCategory, 'a')
+    return {
       name: textFromSelector(documentSubSubCategory, 'a'),
-      link: URL + linkFromSelector(documentSubSubCategory, 'a')
-    })
-  )
-}
-
-const getSubCategory = (document) => {
-  const subCategory = arrayFromSelector(document, '.left-menu-wrapper>li')
-  return subCategory
-    // .filter(documentSubCategory => !textFromSelector(documentSubCategory, '.section').includes('оллекци'))
-    .map(documentSubCategory => ({
-      name: textFromSelector(documentSubCategory, '.section'),
-      link: URL + linkFromSelector(documentSubCategory, 'a'),
-      subCategory: getSubSubCategory(documentSubCategory)
-    })
-  )
-}
-
-const getCollection = (document) => {
-  const subCategory = arrayFromSelector(document, '.left-menu-wrapper>li')
-  const collections = []
-  subCategory.forEach(documentCollection => {
-    if (textFromSelector(documentCollection, '.section').includes('оллекци')) {
-      collections.push({
-        name: textFromSelector(documentCollection, 'span'),
-        link: URL + linkFromSelector(documentCollection, 'a')
-      })
-      for (let subCollection of arrayFromSelector(documentCollection, '.menu_item')) {
-        collections.push({
-          name: textFromSelector(subCollection, 'a'),
-          link: URL + linkFromSelector(subCollection, 'a')
-        })
-      }
+      id: generateIdFromUrl(link),
+      categoryId: categoryId,
+      parentCategoryId: parentCategoryId,
     }
   })
-  return collections
+}
+
+const getCategory = (document, parentCategoryId) => {
+  const subCategory = arrayFromSelector(document, '.left-menu-wrapper>li')
+  return subCategory
+    .map(documentSubCategory => {
+      const link = linkFromSelector(documentSubCategory, 'a')
+      const categoryId = generateIdFromUrl(link)
+      return {
+        name: textFromSelector(documentSubCategory, '.section'),
+        id: categoryId,
+        parentCategoryId: parentCategoryId,
+        subCategory: getSubCategory(documentSubCategory, parentCategoryId, categoryId)
+      }
+    })
 }
 
 const getInformation = (document) => {
@@ -65,17 +53,21 @@ const getInformation = (document) => {
   return arrayFromSelector(document, '.tab-pane').map(documentInfo => ({
     title: info[attributeElement(documentInfo, 'id')],
     content: textFromArray(arrayFromSelector(documentInfo, 'p'))
-  }))
+  })).filter(({title}) => title)
 }
 
 const parsePage = async ({document}) => {
   const catalog = arrayFromSelector(document, '.menu.dropdown>li')
   const catalogInfo = {
-    catalog: catalog.map(documentCategory => ({
-      parentCategory: textFromSelector(documentCategory, '.name'),
-      subCategory: getSubCategory(documentCategory),
-      collections: getCollection(documentCategory),
-    })),
+    catalog: catalog.map(documentCategory => {
+      const link = linkFromSelector(documentCategory, 'a')
+      const id = generateIdFromUrl(link)
+      return {
+        parentCategory: textFromSelector(documentCategory, '.name'),
+        id: id,
+        category: getCategory(documentCategory, id)
+      }
+    }),
     info: getInformation(document)
   }
   WRITE_CATALOG && await setCatalog(catalogInfo)

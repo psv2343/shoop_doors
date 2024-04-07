@@ -1,12 +1,12 @@
 import { getData, writeJson } from "../controller/db.controller.js"
 import compose from "../helpers/compose.js"
-import { transformJson } from "../helpers/transformJson.js"
+import { generateIdFromUrl } from "../helpers/helpers.js"
 
 const formatProduct = ({url, hasData, breadcrumbs, constructor, ...products}) => {
   return {
-    parentCategory: breadcrumbs.at(2)?.name,
-    category: breadcrumbs.at(3)?.name,
-    subCategory: breadcrumbs.at(4)?.name,
+    parentCategoryId: generateIdFromUrl(breadcrumbs.at(2)?.link),
+    categoryId: generateIdFromUrl(breadcrumbs.at(3)?.link),
+    subCategoryId: generateIdFromUrl(breadcrumbs.at(4)?.link),
     ...products,
     constructor: constructor.map(({id, quantity}) => ({id: id, quantity: quantity})),
   }
@@ -20,7 +20,7 @@ const setItems = async ({catalog, info}) => {
     .map(item => formatProduct(item))
 
   return {
-    ...catalog,
+    catalog: [...catalog],
     products,
     info
   }
@@ -30,8 +30,7 @@ const setItems = async ({catalog, info}) => {
 const createJsonFile = async (data) => {
     await compose(
       writeJson,
-      setItems,
-      transformJson
+      setItems
     )(data)
 }
 

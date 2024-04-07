@@ -12,7 +12,7 @@ export const getUrl = (str) => {
 
 export function generateIdFromUrl(url) {
   let hash = 0
-  if (url.length === 0) return hash
+  if (!url || url?.length === 0) return hash
   for (let i = 0; i < url.length; i++) {
     const char = url.charCodeAt(i)
     hash = ((hash << 5) - hash) + char

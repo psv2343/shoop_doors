@@ -2,434 +2,458 @@
   "catalog": [
     {
       "parentCategory": "Межкомнатные двери",
-      "subCategory": [
+      "id": 536649581,
+      "category": [
         {
           "name": "Классические",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/klassicheskie/",
+          "id": 1107780815,
+          "parentCategoryId": 536649581,
           "subCategory": []
         },
         {
           "name": "Неоклассические",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/neoklassicheskie/",
+          "id": 5342799,
+          "parentCategoryId": 536649581,
           "subCategory": []
         },
         {
           "name": "Дизайнерские",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/dizaynerskie/",
+          "id": 603495232,
+          "parentCategoryId": 536649581,
           "subCategory": []
         },
         {
           "name": "Современные",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/sovremennye/",
+          "id": 845966261,
+          "parentCategoryId": 536649581,
           "subCategory": []
         },
         {
           "name": "Скрытые двери",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/skrytye/",
+          "id": 1780814021,
+          "parentCategoryId": 536649581,
           "subCategory": []
         },
         {
           "name": "Все коллекции",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/",
+          "id": 1217643497,
+          "parentCategoryId": 536649581,
           "subCategory": [
             {
               "name": "Коллекция «Classic Baguette»",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/kolletsiya_classic_baguette_new/"
+              "id": 546477679,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «Art-Lite»",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/art-lite/"
+              "id": 1337725042,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «ART Classic» NEW",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-artclassic/"
+              "id": 667640339,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «Квалитет » NEW",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya_kvalitet_new/"
+              "id": 908700423,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «FiloMuro» Под покраску",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/serya-Filo-Muro/"
+              "id": 1892449617,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «SK»",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/kollektsiya_sk/"
+              "id": 493612055,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «S»",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-s/"
+              "id": 739423537,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «S Classic»",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-s-classic/"
+              "id": 1125517226,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «SP»",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/serya-sp/"
+              "id": 305003580,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «Horizont»",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-gorizont/"
+              "id": 1154264574,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «Horizont ALU»",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-alu/"
+              "id": 1916889160,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «3DX»",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-3dx/"
+              "id": 1918267141,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             },
             {
               "name": "Коллекция «Forma»",
-              "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-forma/"
+              "id": 556376805,
+              "categoryId": 1217643497,
+              "parentCategoryId": 536649581
             }
           ]
-        }
-      ],
-      "collections": [
-        {
-          "name": "Все коллекции",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/"
-        },
-        {
-          "name": "Коллекция «Classic Baguette»",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/kolletsiya_classic_baguette_new/"
-        },
-        {
-          "name": "Коллекция «Art-Lite»",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/art-lite/"
-        },
-        {
-          "name": "Коллекция «ART Classic» NEW",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-artclassic/"
-        },
-        {
-          "name": "Коллекция «Квалитет » NEW",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya_kvalitet_new/"
-        },
-        {
-          "name": "Коллекция «FiloMuro» Под покраску",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/serya-Filo-Muro/"
-        },
-        {
-          "name": "Коллекция «SK»",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/kollektsiya_sk/"
-        },
-        {
-          "name": "Коллекция «S»",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-s/"
-        },
-        {
-          "name": "Коллекция «S Classic»",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-s-classic/"
-        },
-        {
-          "name": "Коллекция «SP»",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/serya-sp/"
-        },
-        {
-          "name": "Коллекция «Horizont»",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-gorizont/"
-        },
-        {
-          "name": "Коллекция «Horizont ALU»",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-alu/"
-        },
-        {
-          "name": "Коллекция «3DX»",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-3dx/"
-        },
-        {
-          "name": "Коллекция «Forma»",
-          "link": "https://shop.za-door.ru/catalog/mezhkomnatnye_dveri/vse_dveri/seriya-forma/"
         }
       ]
     },
     {
       "parentCategory": "Декоративные рейки и стеновые панели",
-      "subCategory": [
+      "id": 885535942,
+      "category": [
         {
           "name": "Декоративные рейки",
-          "link": "https://shop.za-door.ru/catalog/dekorativnye_reyki_i_stenovye_paneli/dekorativnye_reyki_/",
+          "id": 2004721144,
+          "parentCategoryId": 885535942,
           "subCategory": []
         },
         {
           "name": "Стеновые панели",
-          "link": "https://shop.za-door.ru/catalog/dekorativnye_reyki_i_stenovye_paneli/stenovye_paneli/",
+          "id": 2016852334,
+          "parentCategoryId": 885535942,
           "subCategory": []
         }
-      ],
-      "collections": []
+      ]
     },
     {
       "parentCategory": "Погонаж",
-      "subCategory": [
+      "id": 1193546078,
+      "category": [
         {
           "name": "Коллекция «Classic Baguette / S Classic / S»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-nuovo-classic-s-classic-mat/",
+          "id": 1216620946,
+          "parentCategoryId": 1193546078,
           "subCategory": []
         },
         {
           "name": "Коллекция «ArtLite / 3DX / SK»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-classic-emal-3dx-emal/",
+          "id": 1458547878,
+          "parentCategoryId": 1193546078,
           "subCategory": []
         },
         {
           "name": "Коллекция «SP»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-sp/",
+          "id": 191381903,
+          "parentCategoryId": 1193546078,
           "subCategory": []
         },
         {
           "name": "Коллекция «Квалитет»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-OU/",
+          "id": 191346470,
+          "parentCategoryId": 1193546078,
           "subCategory": []
         },
         {
           "name": "Коллекция «FiloMuro»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/Filo-Muro/",
+          "id": 708489221,
+          "parentCategoryId": 1193546078,
           "subCategory": []
         },
         {
           "name": "Коллекция «Горизонт - ALU»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-gorizont-alu/",
+          "id": 1366682677,
+          "parentCategoryId": 1193546078,
           "subCategory": []
         },
         {
           "name": "Коллекция «Forma»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-forma-eco-l/",
+          "id": 695011022,
+          "parentCategoryId": 1193546078,
           "subCategory": []
-        }
-      ],
-      "collections": [
-        {
-          "name": "Коллекция «Classic Baguette / S Classic / S»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-nuovo-classic-s-classic-mat/"
-        },
-        {
-          "name": "Коллекция «ArtLite / 3DX / SK»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-classic-emal-3dx-emal/"
-        },
-        {
-          "name": "Коллекция «SP»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-sp/"
-        },
-        {
-          "name": "Коллекция «Квалитет»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-OU/"
-        },
-        {
-          "name": "Коллекция «FiloMuro»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/Filo-Muro/"
-        },
-        {
-          "name": "Коллекция «Горизонт - ALU»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-gorizont-alu/"
-        },
-        {
-          "name": "Коллекция «Forma»",
-          "link": "https://shop.za-door.ru/catalog/pogonazh/pogonazh-forma-eco-l/"
         }
       ]
     },
     {
       "parentCategory": "Напольный плинтус",
-      "subCategory": [],
-      "collections": []
+      "id": 1826224781,
+      "category": []
     },
     {
       "parentCategory": "Фурнитура",
-      "subCategory": [
+      "id": 1952042970,
+      "category": [
         {
           "name": "Rucetti",
-          "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/",
+          "id": 1001859476,
+          "parentCategoryId": 1952042970,
           "subCategory": [
             {
               "name": "Ручки Rucetti",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/ruchki_rucetti/"
+              "id": 1743983032,
+              "categoryId": 1001859476,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Завертки Rucetti",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/zavertki_dlya_zamka_rucetti/"
+              "id": 1518300960,
+              "categoryId": 1001859476,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Накладки под цилиндр Rucetti",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/nakladki_pod_tsilindr_rucetti/"
+              "id": 1001471299,
+              "categoryId": 1001859476,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Цилиндры Rucetti",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/tsilindry_rucetti/"
+              "id": 964659282,
+              "categoryId": 1001859476,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Петли Rucetti",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-rucetti/petli_rucetti/"
+              "id": 2028440006,
+              "categoryId": 1001859476,
+              "parentCategoryId": 1952042970
             }
           ]
         },
         {
           "name": "Morelli",
-          "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/",
+          "id": 1726840100,
+          "parentCategoryId": 1952042970,
           "subCategory": [
             {
               "name": "Ручки Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/ruchki_morelli/"
+              "id": 843668552,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Завертки Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/zavertki_dlya_zamka_morelli/"
+              "id": 755810304,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Цилиндры Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/nakladki_pod_tsilindr/"
+              "id": 1974072882,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Накладки под цилиндр Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/nakladki_pod_tsilindr_morelli/"
+              "id": 881112989,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Петли Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/petli_morelli/"
+              "id": 1481460506,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Замки сантехнические Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/zamki_santekhnicheskie_morelli/"
+              "id": 776874968,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Замки цилиндровые Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/zamki_tsilindrovye_morelli/"
+              "id": 861732549,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Защелки межкомнатные Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/zashchelki_mezhkomnatnye_morelli/"
+              "id": 980452411,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Шпингалеты торцевые Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/shpingalety_tortsevye_morelli/"
+              "id": 1962192938,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Дверные ограничители Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/dvernye_ogranichiteli_morelli/"
+              "id": 1428441014,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Дверные пороги Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/dvernye_porogi_morelli/"
+              "id": 2019512380,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Доводчики Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/dovodchiki_morelli_/"
+              "id": 386727005,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Ручки и замки для раздвижных дверей Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/ruchki_dlya_razdvizhnykh_dverey_morelli_/"
+              "id": 1127223139,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Системы для раздвижных дверей Morelli",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli/napravlyayushchie_morelli_/"
+              "id": 1937105861,
+              "categoryId": 1726840100,
+              "parentCategoryId": 1952042970
             }
           ]
         },
         {
           "name": "Morelli Luxury (Италия)",
-          "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli-luxury/",
+          "id": 1557226152,
+          "parentCategoryId": 1952042970,
           "subCategory": [
             {
               "name": "Ручки Morelli Luxury",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli-luxury/ruchki_morelli_luxury/"
+              "id": 1307945818,
+              "categoryId": 1557226152,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Завертки Morelli Luxury",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli-luxury/zavertki_morelli_luxury/"
+              "id": 1102534250,
+              "categoryId": 1557226152,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Накладки под цилиндр Morelli Luxury",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-morelli-luxury/nakladki_pod_tsilindr_morelli_luxury/"
+              "id": 1807772151,
+              "categoryId": 1557226152,
+              "parentCategoryId": 1952042970
             }
           ]
         },
         {
           "name": "Archie (Испания)",
-          "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-archie/",
+          "id": 2112726716,
+          "parentCategoryId": 1952042970,
           "subCategory": [
             {
               "name": "Коллекция Archie",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-archie/archie-collection/"
+              "id": 351605838,
+              "categoryId": 2112726716,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Коллекция Sillur",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-archie/sillur-collection/"
+              "id": 269532749,
+              "categoryId": 2112726716,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Коллекция Genesis",
-              "link": "https://shop.za-door.ru/catalog/furnitura/Ruchki-archie/genesis-collection/"
+              "id": 929951632,
+              "categoryId": 2112726716,
+              "parentCategoryId": 1952042970
             }
           ]
         },
         {
           "name": "Раздвижные системы",
-          "link": "https://shop.za-door.ru/catalog/furnitura/razdvizhnye-sistemy/",
+          "id": 1327571448,
+          "parentCategoryId": 1952042970,
           "subCategory": [
             {
               "name": "Ручки для раздвижных дверей",
-              "link": "https://shop.za-door.ru/catalog/furnitura/razdvizhnye-sistemy/ruchki_i_zamki_dlya_razdvizhnykh_dverey/"
+              "id": 651276684,
+              "categoryId": 1327571448,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Замки для раздвижных дверей",
-              "link": "https://shop.za-door.ru/catalog/furnitura/razdvizhnye-sistemy/zamki_dlya_razdvizhnykh_dverey/"
+              "id": 897102581,
+              "categoryId": 1327571448,
+              "parentCategoryId": 1952042970
             },
             {
               "name": "Системы для раздвижных дверей",
-              "link": "https://shop.za-door.ru/catalog/furnitura/razdvizhnye-sistemy/sistemy_dlya_razdvizhnykh_dverey/"
+              "id": 527577151,
+              "categoryId": 1327571448,
+              "parentCategoryId": 1952042970
             }
           ]
         },
         {
           "name": "Krona Koblenz",
-          "link": "https://shop.za-door.ru/catalog/furnitura/krona_koblenz/",
+          "id": 931303638,
+          "parentCategoryId": 1952042970,
           "subCategory": []
         },
         {
           "name": "Все ручки",
-          "link": "https://shop.za-door.ru/catalog/furnitura/dvernye-ruchki/",
+          "id": 335133137,
+          "parentCategoryId": 1952042970,
           "subCategory": []
         },
         {
           "name": "AGB",
-          "link": "https://shop.za-door.ru/catalog/furnitura/agb/",
+          "id": 279751719,
+          "parentCategoryId": 1952042970,
           "subCategory": []
         }
-      ],
-      "collections": []
+      ]
     },
     {
       "parentCategory": "Металлические двери",
-      "subCategory": [
+      "id": 558838845,
+      "category": [
         {
           "name": "Бюджет",
-          "link": "https://shop.za-door.ru/catalog/metallicheskie-dveri/snedo/",
+          "id": 747689513,
+          "parentCategoryId": 558838845,
           "subCategory": []
         },
         {
           "name": "Стандарт",
-          "link": "https://shop.za-door.ru/catalog/metallicheskie-dveri/sudar/",
+          "id": 741257447,
+          "parentCategoryId": 558838845,
           "subCategory": []
         },
         {
           "name": "Термодвери",
-          "link": "https://shop.za-door.ru/catalog/metallicheskie-dveri/termodveri/",
+          "id": 313023285,
+          "parentCategoryId": 558838845,
           "subCategory": []
         },
         {
           "name": "Тамбурные",
-          "link": "https://shop.za-door.ru/catalog/metallicheskie-dveri/tamburnie/",
+          "id": 565573313,
+          "parentCategoryId": 558838845,
           "subCategory": []
         },
         {
           "name": "Противопожарные",
-          "link": "https://shop.za-door.ru/catalog/metallicheskie-dveri/fire-prevention/",
+          "id": 257496101,
+          "parentCategoryId": 558838845,
           "subCategory": []
         }
-      ],
-      "collections": []
+      ]
     }
   ],
   "info": [
@@ -476,9 +500,6 @@
         "Точную стоимость сообщим после замера.",
         "Любые вопросы по установке дверей по телефону +7 (499) 113 43 03 с 9 до 18 по будням или электронной почте dostavka@za-door.com."
       ]
-    },
-    {
-      "content": []
     }
   ]
 }
