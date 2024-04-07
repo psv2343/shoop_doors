@@ -16,7 +16,7 @@ const formatProduct = ({url, hasData, breadcrumbs, constructor, ...products}) =>
 const setItems = async ({catalog, info}) => {
   const itemsDb = await getData()
   const products = Object.values(itemsDb)
-    .filter(item => item.hasData)
+    .filter(item => item.hasData && item.sku !== null)
     .map(item => formatProduct(item))
 
   return {
